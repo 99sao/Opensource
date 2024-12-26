@@ -10,6 +10,7 @@ import time
 import concurrent.futures
 import difflib
 
+# 文件节点
 class FileNode:
     def __init__(self, name: str, is_dir: bool, size: int = 0):
         self.name = name
